@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    margin-top: 100px;
+   
+    
+}
+
+h1 {
+    color: rgb(240, 115, 192);
+    background-color: whitesmoke;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 10px;
+   
+}
+
+label {
+    color: rgb(240, 115, 192);
+    font-size: 25px;
+    background-color: whitesmoke;
+    padding: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    font-size: 15px;
+}
+
+form {
+    background-color: beige;
+    padding: 10px;
+    width: 40%;
+    border-radius: 15px;
+    
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    width: 125px;
+    padding: 5px;
+}
+
+#Username {
+    font-style: inherit;
+    color: rgb(240, 115, 192);
+}
+
+#Password {
+    font-style: inherit;
+}
+
+.user {
+    color: rgb(240, 115, 192);
+}
