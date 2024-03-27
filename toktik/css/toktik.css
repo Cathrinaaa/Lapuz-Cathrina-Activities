@@ -1,0 +1,130 @@
+body{
+    background-color: plum;
+}
+
+.btn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px 0px;
+    position: fixed;
+    text-align: center;
+    width:100%;
+    left: 490px;
+    top: 20px;
+}
+.btn a { 
+    color: pink;
+    background-color: purple;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 1px;
+    size: 50px;
+}
+.btn a:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background:pink;
+    border: 1px solid purple;
+    color: purple;
+}
+
+
+.fixed1{
+    position: fixed;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 0;
+    top: 95px;
+    text-align: center;
+    background-color: palevioletred;
+    width: 400px;
+    padding: 5px;
+    height: 100%;
+    border: 2px solid purple
+
+}
+.for {
+    color:purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 39px;
+    text-decoration: none;
+    padding: 5px 34%;
+}
+.follow{
+    color:purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px 29%;
+}
+.find{
+    color:purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px 38%;
+}
+.ex{
+    color:purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px 34%;
+}
+.live{
+    color:purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px 40%;
+}
+a{
+    color:blueviolet;
+    font-size: 37px;
+    text-decoration: none;
+    padding: 10px 30%;  
+    
+ }
+ h2{
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .post{
+    position: relative;
+    left: 50%;
+    top: 120px;
+    width: 300px;
+    height: 400px;
+    background-color: pink;
+    color: blueviolet;
+    padding: 50px;
+    border: 5px solid purple;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.fixed{
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 0;
+    top: 0;
+    color: purple;
+    background-color: pink;
+    width: 100%;
+    padding: 5px;
+    border:2px solid purple;
+   
+}
+.fixed1 a:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: purple;
+    color: palevioletred;
+}
+.log:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.upload:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.post:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
