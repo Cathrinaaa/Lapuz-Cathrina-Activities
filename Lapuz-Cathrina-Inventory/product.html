@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory System</title>
+    <!-- Include Bulma CSS -->
+    <link rel="stylesheet" href="bulma/bulma.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.11.3/css/bulma.min.css">
+    <!-- Custom CSS -->
+    <style>
+        .bordered {
+            border: 2px solid #d4afcd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .sidebar {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .sidebar a {
+            border: 2px solid #d4afcd;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            display: block;
+        }
+        .sidebar .menu-label {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #d4afcd;
+        }
+    </style>
+</head>
+
+<body class="has-background-light">
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <div class="bordered">
+                        <h1 class="title is-1 has-text-centered has-text-pink">Inventory System</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <!-- Sidebar navigation -->
+                <div class="column is-one-fifth">
+                    <aside class="menu bordered sidebar">
+                        <div>
+                            <p class="menu-label">
+                                General
+                            </p>
+                            <ul class="menu-list">
+                                <li><a href="/" class="is-active">Products</a></li>
+                                <li><a href="/">Sales</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="menu-label">
+                                Administration
+                            </p>
+                            <ul class="menu-list">
+                                <li><a href="/">Settings</a></li>
+                                <li><a href="/" class="has-text-danger">Logout</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+                <!-- Product List -->
+                <div class="column">
+                    <div class="columns is-vcentered">
+                        <div class="column is-three-quarters">
+                            <h2 class="subtitle has-text-pink">Product List</h2>
+                        </div>
+                        <div class="column is-one-quarter">
+                            <div class="buttons is-pulled-right">
+                                <a href="/" class="button is-pink">+ Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <table class="table is-bordered is-striped is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>NAME</th>
+                                <th>QUANTITY</th>
+                                <th>PRICE</th>
+                                <th>UNIT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>0011</td>
+                                <td>FRITZ</td>
+                                <td>5</td>
+                                <td>200</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>0012</td>
+                                <td>Rossellah</td>
+                                <td>10</td>
+                                <td>250</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>0013</td>
+                                <td>Flix</td>
+                                <td>4</td>
+                                <td>150</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>0014</td>
+                                <td>Jhona</td>
+                                <td>3</td>
+                                <td>200</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>0015</td>
+                                <td>jade</td>
+                                <td>2</td>
+                                <td>200</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>0016</td>
+                                <td>Mery</td>
+                                <td>7</td>
+                                <td>100</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>0017</td>
+                                <td>Paula</td>
+                                <td>1</td>
+                                <td>200</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>0018</td>
+                                <td>Shawn</td>
+                                <td>1</td>
+                                <td>500</td>
+                                <td>1</td>
+                            </tr>
+                            
+                            <!-- More rows -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
